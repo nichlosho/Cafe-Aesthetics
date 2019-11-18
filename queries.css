@@ -1,0 +1,216 @@
+/* --------------Small Phones from 481 to 767px------------------------*/
+@media only screen and (max-width:480px){
+  .package-price h2{
+    text-align: initial;
+    font-size: 170%;
+    margin-left: 20px;
+  }
+  .section-form{
+    margin-left: 0px;
+    font-size: 100%;
+    padding: 0, 4%;
+  }
+    .section-form h2{
+        font-size: 170%;
+    }
+  .package-price h2{
+    font-size: 170%;
+      margin-top: 300px;
+  }
+}
+/* --------------Larger small Phones from 0 to 480px------------------------*/
+@media only screen and (max-width:1110px){
+  .logo{
+    width: 10%;
+    height: auto;
+  }
+  .row,
+  .hero-text-box{
+    padding: 0, 4%;
+  }
+  .hero-text-box h1{
+    font-size: 140%;
+  }
+  .main-nav{
+    width: 80%;
+  }
+  .mobile-nav-icon{display: inline-block;}
+  .main-nav{float: left;}
+  .main-nav li{display: block;}
+  .main-nav li a:link,
+  .main-nav li a:visited{
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+.sticky .main-nav {margin-top:10px;}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+  padding: 10px;
+}
+.sticky .main-nav{
+  margin-top: 15px;
+}
+.sticky .logo-sticky{
+  height: 50px;
+  width: auto;
+  float: left;
+  margin-top: 5px;
+}
+  .col{width: 100%;}
+  body{font-size: 16px;}
+  section{padding:30px, 0}
+
+  .icon img{
+    width: 10%;
+    height: auto;
+  }
+  .barista image{
+    width: 10%;
+    height: auto;
+  }
+  .section-form{
+    margin-left: 0px;
+    font-size: 100%;
+    padding: 0, 4%;
+  }
+  .package-price h2{
+    font-size: 170%;
+  }
+    .section-form h2{
+        font-size: 170%;
+    }
+}
+  /* --------------small to big tablet from 767 to 1023px------------------------*/
+  @media only screen and (max-width:1120px){
+    body{font-size: 18px;}
+    section {padding: 60px 0;}
+    .long-copy{
+      width: 80%;
+      margin-left: 10%;
+    }
+    .btn {
+        padding:0px;
+        font-size: 15px;
+      }
+      .plan-npx{
+        font-size: 80%;
+        width: 100%;
+      }
+      .main-nav{
+        width: 80%;
+      }
+      .plan-price {font-size: 160%;}
+      .contact-form {
+        padding: 0,2%;
+        width:100%;}
+  .small-icon{
+    font-size: 20px;
+  }
+  .section-form{
+    margin-left: 0;
+  }
+  #map{
+    width: 100%;
+  }
+  .cities{
+    margin-left: 5%;
+    padding-right: 0;
+    font-size: 15px;
+  }
+  .section-plans li{
+    font-size: 13px;
+  }
+  .section-plans{
+    font-size: 15px;
+  }
+  .section-plans em{
+     font-size: 10px;
+  }
+  .btn-ghost:link,
+  .btn-ghost:visited{
+    font-size: 12px;
+  }
+  .btn-full:link,
+  .btn-full:visited{
+    font-size: 12px;
+  }
+  .hero-text-box{ /*this is the div of the title and learn more links*/
+    width: 80%;
+    font-size: 140%;
+  }
+  .row,
+  .hero-text-box{
+    padding: 0, 4%;
+  }
+  .package-price h2{
+    font-size: 170%;
+  }
+      .section-form h2{
+        font-size: 170%;
+    }
+  }
+  /* --------------small to big tablet from 767 to 1023px------------------------*/
+  @media only screen and (max-width:1200px){
+    .hero-text-box{ /*this is the div of the title and learn more links*/
+      padding: 0 2%;
+      width: 100%;
+    }
+    .row{padding:0 2%;
+  }
+  .btn-plan{
+    font-size: 15px;
+  }
+  .section-plans li{
+    font-size: 16px;
+  }
+  .section-plans{
+    font-size: 20px;
+  }
+  .section-plans em{
+    12px;
+  }
+  .package-price h2{
+    font-size: 160%;
+  }
+  .section-form{
+    margin-left: 100px;
+    font-size: 140%;
+  }
+  .btn-ghost:link,
+  .btn-ghost:visited{
+    font-size: 15px;
+  }
+  .btn-full:link,
+  .btn-full:visited{
+    font-size: 15px;
+  }
+  .city-image{
+    margin-left:0px;
+  }
+  .barista img{
+    width: 50%;
+  }
+  .package-price h2{
+    font-size: 140%;
+  }
+}
+
+@media only screen and (max-width:1900px){
+  .package-price h2{
+    font-size: 200%;
+    
+  }
+  .plan-npx{
+    margin-left:70px;
+  }
+  .section-form h2{
+    font-size: 200%;
+  }
+  .city-image img{
+    width: 100%;
+    height: auto;
+  }
+}
